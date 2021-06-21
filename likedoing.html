@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>What Do I Like Doing?</title>
+		<link rel = "icon" href =
+		"favicon.jpg"
+		type = "image/x-icon">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style type="text/css">
+
+		.header {
+			position: fixed;
+			top: 0;
+			z-index: 1;
+			width: 100%;
+			background-color: #f1f1f1;
+		}
+
+		.progress-container {
+			width: 100%;
+			height: 3px;
+			background: #5385c1;
+		}
+
+		.progress-bar {
+			height: 3px;
+			background: #639FE7;
+			width: 0%;
+		}
+		.iframevideo {
+			margin-left: 300px;
+		}
+
+	</style>
+	</head>
+	<body class="subpage">
+		<script>
+			window.onscroll = function() {myFunction()};
+			function myFunction() {
+					var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+					var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+					var scrolled = (winScroll / height) * 100;
+					document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		</script>
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Tanmeen Patel</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="myimage.html">My Images</a>
+						<a href="qualities.html">Qualities</a>
+						<a href="achievements.html">Achievements</a>
+						<a href="familyfriends.html">Family and Friends</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+				<div class="header">
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+			</header>
+
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>What do I like doing?</h2>
+					</header>
+					<p>First thing on my fingertips is definitely reading. We have over 70 books in our house, ranging from crime thrillers to autobiographies to novels to fantastical fiction. My favorite books are crime thrillers. I've read many notable books like The Da Vincci Code, all the Sherlock Holmes books, Vendetta, Harry Potter and countless others. I get immersed in books such as the ones mentioned and feel as if I'm right next to the main character whether he/she is being shot at, or is trying to follow a suspicious person down a dark alley.</p>
+					<p>Next up, I love speechwriting. I have been delivering speeches for over 2 years at a Toastmasters club (speaking club). I believe speeches allow you to introduce the audience to your opinion on something and give you the chance to change their perspective about something.</p>
+					<p>I also love solving Rubik's cubes. I have over 15 different types of cubes, all of which I can solve. I have a 2x2, 3x3, 4x4, 5x5, 6x6, mirror cube, mastermorphix, pyraminx, megaminx, 2x2x3, etc. I think you get the idea. I can solve a 2x2 in less than 5 seconds, and a 3x3 in less than 20. Check my YouTube channel (link at the bottom) to see some of my personal bests.</p>
+					<p>Coding: I was recently introduced to coding by the addition of the new period ABL. It taught me basic coding for apps and Arduinos. Arduinos are microchip processors that can power various contraptions.
+						<br> Here's a video of an over-complicated Arduino circuit powering 60 LEDs on an online simulator.
+						<p><iframe class="iframevideo" width="560" height="315" src="https://www.youtube.com/embed/cScI8gXRWSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+						<p>Then as an Elective, I chose IT, where they taught me web-design. It's how I'm writing this. I find web development a very interesting field and I might be looking towards that as a career. Computers is a field that's evergreen because there's new technology being invented every day.</p>
+				</div>
+			</section>
+
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+						Tanmeen Patel.
+						</div>
+						<ul class="icons">
+							<li><a href="https://templated.co/items/demos/theory/" class="icon fa-chain"  target="_blank"><span class="label">Pinterest</span></a></li>
+							<li><a href="https://www.reddit.com/user/THEIMMORTAL123" class="icon fa-reddit"  target="_blank"><span class="label">Pinterest</span></a></li>
+							<li><a href="https://pin.it/1oBFSri" class="icon fa-pinterest-p"  target="_blank"><span class="label">Pinterest</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UC-Aya8PaHZ7PMnvj8g94gTA" class="icon fa-youtube" target="_blank"><span class="label">YouTube Channel</span></a></li>
+							<li><a href="https://github.com/TanmeenPatel" class="icon fa-github" target="_blank"><span class="label">YouTube Channel</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

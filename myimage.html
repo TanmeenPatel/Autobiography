@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My Images</title>
+		<link rel = "icon" href =
+		"favicon.jpg"
+		type = "image/x-icon">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style type="text/css">
+		.header {
+			position: fixed;
+			top: 0;
+			z-index: 1;
+			width: 100%;
+			background-color: #f1f1f1;
+		}
+
+		.progress-container {
+			width: 100%;
+			height: 3px;
+			background: #5385c1;
+		}
+
+		.progress-bar {
+			height: 3px;
+			background: #639FE7;
+			width: 0%;
+		}
+		.iframevideo {
+			margin-left: 300px;
+		}
+		.captionforimage{
+			font-style: italic;
+		}
+
+		img.hover-shadow {
+  		transition: 0.3s;
+		}
+		.hover-shadow:hover {
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+	</style>
+	</head>
+	<body class="subpage">
+		<script>
+			window.onscroll = function() {myFunction()};
+			function myFunction() {
+					var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+					var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+					var scrolled = (winScroll / height) * 100;
+					document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		</script>
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Tanmeen Patel</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="likedoing.html">Interests</a>
+						<a href="qualities.html">Qualities</a>
+						<a href="achievements.html">Achievements</a>
+						<a href="familyfriends.html">Family and Friends</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+				<div class="header">
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+			</header>
+
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>My Images</h2>
+					</header>
+					<div>
+						<span class="image fit"><img class="hover-shadow" src="images/IMG_6515.JPG" alt="" height="1500" width="500"/></span>
+						<br>
+						<span class="image fit"><img class="hover-shadow" src="images/photo_2021-01-18_07-19-29.jpg" alt=""/></span>
+						<br>
+						<span class="image fit"><img class="hover-shadow" src="images/photo_2021-01-18_07-19-20.jpg" alt=""/></span>
+						<br>
+						<span class="image fit"><img class="hover-shadow" src="images/photo_2021-01-18_07-19-23.jpg" alt=""/></span>
+						<br>
+						<span class="image fit"><img class="hover-shadow" src="images/photo_2021-01-18_07-19-26.jpg" alt=""/></span>
+						<br>
+					</div>
+				</div>
+			</section>
+
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+						Tanmeen Patel.
+						</div>
+						<ul class="icons">
+							<li><a href="https://www.reddit.com/user/THEIMMORTAL123" class="icon fa-reddit"  target="_blank"><span class="label">Pinterest</span></a></li>
+							<li><a href="https://pin.it/1oBFSri" class="icon fa-pinterest-p"  target="_blank"><span class="label">Pinterest</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UC-Aya8PaHZ7PMnvj8g94gTA" class="icon fa-youtube" target="_blank"><span class="label">YouTube Channel</span></a></li>
+							<li><a href="https://github.com/TanmeenPatel" class="icon fa-github" target="_blank"><span class="label">YouTube Channel</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
